@@ -1,0 +1,5 @@
+rootProject.name = 'MetrixSample'
+include ':@metrixorg_react-native-metrix'
+project(':@metrixorg_react-native-metrix').projectDir = new File(rootProject.projectDir, '../node_modules/@metrixorg/react-native-metrix/android')
+
+include ':app'
