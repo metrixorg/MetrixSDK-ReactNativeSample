@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@metrixorg/react-native-metrix": "0.0.2",
+    "@metrixorg/react-native-metrix": "0.0.3",
     "android": "0.0.8",
     "eslint": "^5.9.0",
     "react": "^16.6.3",
