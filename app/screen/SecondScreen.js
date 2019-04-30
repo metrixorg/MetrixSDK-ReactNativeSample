@@ -7,6 +7,7 @@ export default class FirstScreen extends React.Component {
     super();
     Metrix.screenDisplayed("Second Screen");
     Metrix.newEvent("Second Screen");
+    Metrix.newRevenue("revenue",233,1,"orderId");
   }
 
   static navigationOptions = {
