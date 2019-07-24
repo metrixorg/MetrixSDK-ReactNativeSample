@@ -6,7 +6,7 @@ export default class FirstScreen extends React.Component {
   constructor() {
     super();
     Metrix.screenDisplayed("First Screen");
-    Metrix.newEvent("First Screen"); 
+    Metrix.newEvent("tlsbq"); 
   }
 
   static navigationOptions = {

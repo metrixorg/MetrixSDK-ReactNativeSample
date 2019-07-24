@@ -15,11 +15,6 @@ class MetrixSample extends React.Component {
   constructor() {
     super();
     Metrix.initialize("wevudpiqxgzfrcv");
-      Metrix.setOnAttributionChangedListener((attributionModel)=>{
-     
-    
-    });
-
   }
 
   render() {
