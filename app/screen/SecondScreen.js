@@ -1,17 +1,16 @@
-import React from "react";
-import Metrix from "@metrixorg/react-native-metrix";
-import { StyleSheet, View, Text } from "react-native";
+import React from 'react';
+import {Metrix} from '@metrixorg/react-native-metrix';
+import {StyleSheet, View, Text} from 'react-native';
 
 export default class FirstScreen extends React.Component {
   constructor() {
     super();
-    Metrix.screenDisplayed("Second Screen");
-    Metrix.newEvent("ftlik");
-    Metrix.newRevenue("revenue",233,1,"orderId");
+    Metrix.newEvent('ftlik');
+    Metrix.newRevenue('revenue', 233, 1, 'orderId');
   }
 
   static navigationOptions = {
-    title: "Second Screen"
+    title: 'Second Screen',
   };
 
   render() {
@@ -26,9 +25,9 @@ export default class FirstScreen extends React.Component {
 const styles = StyleSheet.create({
   text: {
     fontSize: 18,
-    fontWeight: "bold",
-    color: "#333",
+    fontWeight: 'bold',
+    color: '#333',
     top: 80,
-    textAlign: "center"
-  }
+    textAlign: 'center',
+  },
 });
