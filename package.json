@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@metrixorg/react-native-metrix": "0.12.2",
+    "@metrixorg/react-native-metrix": "0.13.1",
     "android": "0.0.8",
     "eslint": "^5.9.0",
     "react-navigation": "^2.18.3",
