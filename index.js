@@ -21,7 +21,7 @@ class MetrixSample extends React.Component {
   }
 }
 let metrixConfig = new MetrixConfig('wevudpiqxgzfrcv');
-
+metrixConfig.setFirebaseAppId('1:730143097783:android:227c981a44d0492eaa9e32');
 Metrix.onCreate(metrixConfig);
 
 AppRegistry.registerComponent('MetrixSample', () => MetrixSample);
