@@ -40,8 +40,7 @@ target 'MetrixSample' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
-  pod 'RCTMetrixReactNative', :podspec => 'RCTMetrixReactNative.podspec'
-  # pod 'MetrixSdkCore', :podspec => 'MetrixSdkCore.podspec'
+  pod 'react-native-metrix', :path => '../node_modules/@metrixorg/react-native-metrix'
 
 end
 # post_install do |installer|
