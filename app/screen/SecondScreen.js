@@ -6,7 +6,7 @@ export default class FirstScreen extends React.Component {
   constructor() {
     super();
     Metrix.newEvent('ftlik');
-    Metrix.newRevenue('revenue', 233, 1, 'orderId');
+    // Metrix.newRevenue('revenue', 233, 1, 'orderId');
   }
 
   static navigationOptions = {
