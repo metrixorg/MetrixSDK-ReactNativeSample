@@ -14,14 +14,16 @@ const RootStack = createStackNavigator({
 class MetrixSample extends React.Component {
   constructor() {
     super();
+    let metrixConfig = new MetrixConfig('wevudpiqxgzfrcv');
+    metrixConfig.setFirebaseAppId(
+      '1:730143097783:android:227c981a44d0492eaa9e32',
+    );
+    Metrix.onCreate(metrixConfig);
   }
 
   render() {
     return <RootStack />;
   }
 }
-let metrixConfig = new MetrixConfig('wevudpiqxgzfrcv');
-metrixConfig.setFirebaseAppId('1:730143097783:android:227c981a44d0492eaa9e32');
-Metrix.onCreate(metrixConfig);
 
 AppRegistry.registerComponent('MetrixSample', () => MetrixSample);
