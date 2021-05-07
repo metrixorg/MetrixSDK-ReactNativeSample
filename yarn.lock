@@ -1286,10 +1286,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@metrixorg/react-native-metrix@^0.14.7":
-  version "0.14.7"
-  resolved "https://registry.yarnpkg.com/@metrixorg/react-native-metrix/-/react-native-metrix-0.14.7.tgz#5286278c5df47d42d895bf933483e4d519441cbd"
-  integrity sha512-iPPsIIldbVfBTMYMAke6v3mPadUU7JQLWD3nkkze1VAVR4HpPpH88T4t3fRK+c99E3K5F253YH7DGvJkB9iWkA==
+"@metrixorg/react-native-metrix@0.14.9":
+  version "0.14.9"
+  resolved "https://registry.yarnpkg.com/@metrixorg/react-native-metrix/-/react-native-metrix-0.14.9.tgz#51d0f2193c6f3db26107172f304c2c0e347c10e0"
+  integrity sha512-uYML0ihzb3SXN2yf/7oCj9nzmmvv9o3QS7GpPIG5SCovFgK5kmJIRXxljScBVYbnZ+ZxbLTc8aRsHq1dJdm90A==
   dependencies:
     prop-types "^15.5.10"
 
@@ -6592,9 +6592,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-es@^3.1.9:
   version "3.3.9"
