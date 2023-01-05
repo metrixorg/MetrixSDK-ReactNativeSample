@@ -1286,10 +1286,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@metrixorg/react-native-metrix@^0.14.7":
-  version "0.14.7"
-  resolved "https://registry.yarnpkg.com/@metrixorg/react-native-metrix/-/react-native-metrix-0.14.7.tgz#5286278c5df47d42d895bf933483e4d519441cbd"
-  integrity sha512-iPPsIIldbVfBTMYMAke6v3mPadUU7JQLWD3nkkze1VAVR4HpPpH88T4t3fRK+c99E3K5F253YH7DGvJkB9iWkA==
+"@metrixorg/react-native-metrix@0.14.9":
+  version "0.14.9"
+  resolved "https://registry.yarnpkg.com/@metrixorg/react-native-metrix/-/react-native-metrix-0.14.9.tgz#51d0f2193c6f3db26107172f304c2c0e347c10e0"
+  integrity sha512-uYML0ihzb3SXN2yf/7oCj9nzmmvv9o3QS7GpPIG5SCovFgK5kmJIRXxljScBVYbnZ+ZxbLTc8aRsHq1dJdm90A==
   dependencies:
     prop-types "^15.5.10"
 
@@ -4236,11 +4236,9 @@ json-stringify-safe@~5.0.1:
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
 json5@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.1.tgz#81b6cb04e9ba496f1c7005d07b4368a2638f90b6"
-  integrity sha512-l+3HXD0GEI3huGq1njuqtzYK8OYJyXMkOLtQ53pjWh89tvWS2h6l+1zMkYWqlb57+SiQodKZyvMEFb2X+KrFhQ==
-  dependencies:
-    minimist "^1.2.0"
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 jsonfile@^2.1.0:
   version "2.4.0"
